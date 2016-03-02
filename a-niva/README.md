@@ -1,52 +1,58 @@
-# Rita med asterisker - nivå A
+# Lösning - nivå A
 
-## Problem
-
-Skriv ett program som skapar ett olikfärgat mönster enligt figur A.1 nedan.
-
-## A-Krav
-
-1. Figuren ska bestå av 25 rader och 39 kolumner med asterisktecken.
-2. Varannan rad ska vara inskjuten med ett mellanslag.
-3. Radernas färger ska alternera mellan gul, magenta och grön.
-4. För utskriften får du endast använda följande satser, högst en gång vardera: 
+En elementär, om än oflexibel, lösning som utnyttjar två nästlade ```for```-loopar för att åstadkomma 25 rader med vardera 39 kolumner (asterisker). Indentering av "varannan" rad sker genom att med restoperatorn (%) undersöka om ```row```-värdet är "udda eller jämnt" (dvs. delbart med 2). På samma sätt används rest-värdet för att i ```switch```-satsens villkorsloop sätta stjärnmönstrets olikfärgade rader.
+   
+Experimentera gärna vidare med dessa verktyg (for, switch, % ...) för att **rita mer avancerade mönster i de användarinteraktiva programmen på B- och C-nivå!**
 
 ```c#
-Console.Write(" ");
-Console.Write("* ");
-Console.WriteLine();
+using System;
+
+namespace StarsStripesAndDiamonds_A
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    class Program
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
+        static void Main(string[] args)
+        {
+            Console.Title = "Rita med asterisker - nivå A";
+
+            for (int row = 0; row < 25; row++)
+            {
+                if (row % 2 == 1)
+                {
+                    Console.Write(" ");
+                }
+
+                switch (row % 3)
+                {
+                    case 0:
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        break;
+
+                    case 1:
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        break;
+
+                    case 2:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        break;
+                }
+
+                for (int col = 0; col < 39; col++)
+                {
+                    Console.Write("* ");
+                }
+                Console.ResetColor();
+
+                Console.WriteLine();
+            }
+        }
+    }
+}
 ```
-
-___Konsollfönster___
-
-En körning av programmet enligt nämnda förutsättningar ska resultera i en utskrift likt bilden nedan.
-
-![ScreenShot](../bilder/starsAndStripes.png)
-
-Figur A.1. Konsollutskrift från programmet.
-
-## Tips
-
-Läs om:
-
-+ variabler
-	+ Essential C# 6.0, 13-17.
-	+ http://msdn.microsoft.com/en-us/library/hh147285(VS.88).aspx#Variables	
-+ ”for”-satsen
-	+ Essential C# 6.0, 137-140.
-	+ https://msdn.microsoft.com/en-us/library/ch45axte.aspx
-+ ”if”-satsen
-	+ Essential C# 6.0, 111-118.
-	+ http://msdn.microsoft.com/en-us/library/5011f09h.aspx
-+ ”switch”-satsen
-	+ Essential C# 6.0, 143-146.
-	+ http://msdn.microsoft.com/en-us/library/06tc147t.aspx
-+ %-operatorn
-	+ Essential C# 6.0, 91-92.
-	+ http://msdn.microsoft.com/en-us/library/0w4e0fzs.aspx
-+ Hantering av färger i ett konsolfönster
-	+ http://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
-	+ http://msdn.microsoft.com/en-us/library/s66hf68a.aspx
-	+ http://msdn.microsoft.com/en-us/library/d3zkyxxe.aspx
-
-[Lösning](losning/)

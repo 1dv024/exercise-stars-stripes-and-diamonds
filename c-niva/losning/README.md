@@ -1,2 +1,0 @@
-# Lösning - nivå C
-
