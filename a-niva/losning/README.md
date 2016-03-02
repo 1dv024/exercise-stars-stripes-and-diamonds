@@ -1,6 +1,6 @@
 # Lösning - nivå A
 
-En elementär lösning som utnyttjar två nästlade ```for```-loopar för att åstadkomma 25 rader med vardera 39 kolumner (asterisker). Indentering av "varannan" rad sker genom att med restoperatorn (%) undersöka om ```row```-värdet är "udda eller jämnt" (dvs. delbart med 2). På samma sätt används rest-värdet för att i ```switch```-satsens villkorsloop sätta stjärnmönstrets olikfärgade rader.
+En elementär, om än oflexibel, lösning som utnyttjar två nästlade ```for```-loopar för att åstadkomma 25 rader med vardera 39 kolumner (asterisker). Indentering av "varannan" rad sker genom att med restoperatorn (%) undersöka om ```row```-värdet är "udda eller jämnt" (dvs. delbart med 2). På samma sätt används rest-värdet för att i ```switch```-satsens villkorsloop sätta stjärnmönstrets olikfärgade rader.
    
 Experimentera gärna vidare med dessa verktyg (for, switch, % ...) för att **rita mer avancerade mönster i de användarinteraktiva programmen på B- och C-nivå!**
 
