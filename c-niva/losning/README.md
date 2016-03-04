@@ -13,6 +13,7 @@ Liksom i föregående B-lösning finns stora brister i programmets dokumentation
 Läs mer om hur **xml-kommentarer** (se format i lösningen nedan) kan underlätta livet i Visual Studio-editorn med löpande kod-tips medan du arbetar! Eller hur du automatgenererar din välskrivna XML-dokumentation till en separat xml-fil:  
 
 + Essential C# 6.0, 414-418.
++ https://msdn.microsoft.com/en-us/library/b2s063f7%28v=vs.110%29.aspx
 
 ```c#
 using System;
