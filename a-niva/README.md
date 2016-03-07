@@ -31,22 +31,22 @@ Läs om:
 
 + variabler
 	+ Essential C# 6.0, 13-17.
-	+ http://msdn.microsoft.com/en-us/library/hh147285(VS.88).aspx#Variables	
+	+ https://msdn.microsoft.com/en-us/library/hh147285(VS.88).aspx#Variables	
 + ”for”-satsen
 	+ Essential C# 6.0, 137-140.
 	+ https://msdn.microsoft.com/en-us/library/ch45axte.aspx
 + ”if”-satsen
 	+ Essential C# 6.0, 111-118.
-	+ http://msdn.microsoft.com/en-us/library/5011f09h.aspx
+	+ https://msdn.microsoft.com/en-us/library/5011f09h.aspx
 + ”switch”-satsen
 	+ Essential C# 6.0, 143-146.
-	+ http://msdn.microsoft.com/en-us/library/06tc147t.aspx
+	+ https://msdn.microsoft.com/en-us/library/06tc147t.aspx
 + %-operatorn
 	+ Essential C# 6.0, 91-92.
-	+ http://msdn.microsoft.com/en-us/library/0w4e0fzs.aspx
+	+ https://msdn.microsoft.com/en-us/library/0w4e0fzs.aspx
 + Hantering av färger i ett konsolfönster
-	+ http://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
-	+ http://msdn.microsoft.com/en-us/library/s66hf68a.aspx
-	+ http://msdn.microsoft.com/en-us/library/d3zkyxxe.aspx
+	+ https://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
+	+ https://msdn.microsoft.com/en-us/library/s66hf68a.aspx
+	+ https://msdn.microsoft.com/en-us/library/d3zkyxxe.aspx
 
 [Lösning](losning/)
