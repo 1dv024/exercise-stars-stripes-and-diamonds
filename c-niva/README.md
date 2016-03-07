@@ -77,7 +77,7 @@ Läs om:
 
 + ”if”-satsen
 	+ Essential C# 6.0, 111-118.
-	+ http://msdn.microsoft.com/en-us/library/5011f09h.aspx
+	+ https://msdn.microsoft.com/en-us/library/5011f09h.aspx
 + ”for”-satsen
 	+ Essential C# 6.0, 137-140.
 	+ https://msdn.microsoft.com/en-us/library/ch45axte.aspx
@@ -86,27 +86,27 @@ Läs om:
 	+ https://msdn.microsoft.com/en-us/library/ch45axte.aspx
 + ”do-while”-satsen
 	+ Essential C# 6.0, 134-137.
-	+ http://msdn.microsoft.com/en-us/library/370s1zax.aspx
+	+ https://msdn.microsoft.com/en-us/library/370s1zax.aspx
 + %-operatorn
 	+ Essential C# 6.0, 91-92.
-	+ http://msdn.microsoft.com/en-us/library/0w4e0fzs.aspx
+	+ https://msdn.microsoft.com/en-us/library/0w4e0fzs.aspx
 + Metoder
 	+ Essential C# 6.0, 161-174.
-	+ http://msdn.microsoft.com/en-us/library/ms173114.aspx
+	+ https://msdn.microsoft.com/en-us/library/ms173114.aspx
 + Metoder med frivilliga argument
 	+ Essential C# 6.0, 197-201
-	+ http://msdn.microsoft.com/en-us/library/dd264739.aspx
+	+ https://msdn.microsoft.com/en-us/library/dd264739.aspx
 + Undantag
 	+ Essential C# 6.0, 202-209
 	+ Essential C# 6.0, 433-441
-	+ http://msdn.microsoft.com/en-us/library/0yd65esw.aspx
-	+ http://msdn.microsoft.com/en-us/library/1ah5wsex.aspx
-	+ http://msdn.microsoft.com/en-us/library/ww58ded5.aspx
+	+ https://msdn.microsoft.com/en-us/library/0yd65esw.aspx
+	+ https://msdn.microsoft.com/en-us/library/1ah5wsex.aspx
+	+ https://msdn.microsoft.com/en-us/library/ww58ded5.aspx
 + Hantering av färger i ett konsolfönster
-	+ http://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
-	+ http://msdn.microsoft.com/en-us/library/s66hf68a.aspx
-	+ http://msdn.microsoft.com/en-us/library/d3zkyxxe.aspx
+	+ https://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
+	+ https://msdn.microsoft.com/en-us/library/s66hf68a.aspx
+	+ https://msdn.microsoft.com/en-us/library/d3zkyxxe.aspx
 + Resurser
-	+ http://msdn.microsoft.com/en-us/library/9za7fxc7.aspx
+	+ https://msdn.microsoft.com/en-us/library/9za7fxc7.aspx
 
 [Lösning](losning/)
